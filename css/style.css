@@ -42,7 +42,7 @@ a:hover {
     align-items: center;
     justify-content: flex-start;
     width: 99.5%;
-    height: 25vh;
+    height: 14rem;
     overflow: hidden;
     background-color: #1a1a1a;
 }
@@ -179,4 +179,16 @@ h1 {
 
 .contact-info p {
     margin: 5px 0; /* Tekstien välistys */
+}
+
+@media (max-width: 540px) {
+    h1 {
+        font-size: 1.5rem;  /* Vielä pienempi fonttikoko mobiilinäytöille */
+        letter-spacing: 1px;
+    }
+
+    .subtitle {
+        font-size: 0.7rem;  /* Pienempi fonttikoko mobiilinäytöille */
+        margin-top: 5px;
+    }
 }
