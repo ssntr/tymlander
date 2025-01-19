@@ -153,3 +153,30 @@ h1 {
         .dropdown-content ul li {
             margin-bottom: 5px;
         }
+
+        .contact-container {
+    display: flex; /* Jotta kuva ja tekstit ovat vierekkäin */
+    align-items: center; /* Kohdistaa kuvan ja tekstin pystysuunnassa keskelle */
+    gap: 20px; /* Lisää väliä kuvan ja tekstien välille */
+}
+
+.contact-img {
+    width: 50px; /* Kuvan koko */
+    height: 80px;
+    border-radius: 15px; /* Pyöristetyt kulmat */
+    animation: spin 5s linear infinite; /* Pyörivä animaatio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Kevyt varjo kuvassa */
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.contact-info p {
+    margin: 5px 0; /* Tekstien välistys */
+}
