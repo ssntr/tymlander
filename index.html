@@ -1,37 +1,86 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TYmlander Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 <div class="container">
   <header class="banner">
-    <div class="video container">
+    <div class="video-container">
       <video autoplay muted loop class="video-background">
         <source src="img/headervideo.mp4" type="video/mp4">
       </video>
     </div>
     <div class="text-container">
             <h1>TYmlander</h1>
-            <p class="subtitle">VIDEO GAME DEVELOPER/ENGINEER PORTFOLIO</p>
+            <p class="subtitle">VIDEO GAME DEVELOPER/ENGINEER</p>
     </div>
   </header>
-  <section>
-    <h2>About Me</h2>
-    <p>I'm an indie game developer with experience in Unity and Godot.</p>
-  </section>
-  <section>
-    <h2>My Games</h2>
-    <ul>
-      <li><a href="https://ssntr.itch.io/basic-bees">My Awesome Game</a></li>
-    </ul>
-  </section>
+    <div class="intro">
+        <h2>Combining creativity with technology to craft memorable gaming experiences</h2>
+
+        <section>
+            <p>I am a passionate Information and Communication Technology Engineering student specializing in Video Game Development. With a solid foundation in programming languages, game engines, and design principles, I am committed to creating innovative, engaging, and user-focused gaming experiences. My diverse background in performing arts and customer service complements my technical skills, giving me a unique ability to bring creativity and collaboration into every project I undertake.</p>
+        </section>
+    </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('education')">Education</button>
+            <div class="dropdown-content" id="education">
+                <p><strong>Bachelor of Engineering: ICT</strong></p>
+                <p>Helsinki Metropolia University of Applied Sciences (08/2023 - 05/2027)</p>
+                <ul>
+                    <li>Major: Video Game Development</li>
+                    <li>Coursework: C++, C#, Python, JavaScript, SQL, Unity</li>
+                </ul>
+                <p><strong>Actor and Performance Artist</strong></p>
+                <p>Laajasalo Folk High School (08/2015 - 05/2017), Lahti Academy of Liberal and Fine Arts (08/2020 - 05/2021)</p>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('work-experience')">Work Experience</button>
+            <div class="dropdown-content" id="work-experience">
+                <ul>
+                    <li><strong>Customer Servant</strong>, Verkkokauppa.com (10/2018 - 04/2020)</li>
+                    <p>Delivered exceptional customer service in Finland’s leading online electronics store.</p>
+                    <li><strong>Game Host</strong>, Vain Elämys Oy (Exit Room Helsinki) (02/2016 - 08/2017)</li>
+                    <p>Designed and hosted immersive escape room experiences.</p>
+                    <li><strong>Waiter, Shift Manager, Assistant Restaurant Manager</strong>, Hesburger (05/2010 - 10/2018)</li>
+                    <p>Advanced from waiter to assistant manager, overseeing staff and operations.</p>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('skills')">Skills</button>
+            <div class="dropdown-content" id="skills">
+                <ul>
+                    <li><strong>Programming:</strong> Python, JavaScript, SQL, C++, C#, Unity</li>
+                    <li><strong>Languages:</strong> English, Finnish (fluent), Swedish (communicative), German (basic)</li>
+                    <li><strong>Soft Skills:</strong> Team collaboration, creative problem-solving, leadership</li>
+                    <li><strong>Artistic:</strong> Performance art, choreography, storytelling</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('contact')">Contact</button>
+            <div class="dropdown-content" id="contact">
+                <p><strong>Email:</strong> <a href="mailto:santeri.tamlander@gmail.com">santeri.tamlander@gmail.com</a></p>
+                <p><strong>Discord:</strong> ssntr</p>
+
+            </div>
+        </div>
   </div>
 </body>
 </html>
