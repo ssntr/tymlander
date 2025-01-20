@@ -8,15 +8,15 @@
     padding: 20px;
     max-width: 85%;
     margin: 165px auto 50px;
-    background-color: rgba(0, 0, 0, 0.85); /* Musta läpikuultava tausta */
+    background-color: rgba(0, 0, 0, 0.85);
     color: #D3D3D3;
-    border-radius: 8px; /* Pyöristetyt kulmat */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Kevyt varjo */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 body {
     background-image: url("../img/sydansuru.png");
-    background-attachment: fixed; /* Kuva pysyy paikallaan scrollatessa */
+    background-attachment: fixed;
     color: #D3D3D3;
     font-family: 'Exo 2', 'Arial', sans-serif;
     font-size: 18px;
@@ -24,14 +24,14 @@ body {
 }
 
 a {
-    color: #32CD32; /* Limenvihreä */
-    text-decoration: none; /* Poistaa alleviivauksen */
-    transition: color 0.3s ease; /* Sileä siirtymä hoverille */
+    color: #32CD32;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #FFD700; /* Kulta hoveratessa */
-    text-decoration: underline; /* Lisää halutessasi alleviivaus hoverille */
+    color: #FFD700;
+    text-decoration: underline;
 }
 
 
@@ -53,8 +53,8 @@ a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1; /* Video jää tekstin taakse */
-      /* Gradientin asettaminen */
+    z-index: -1;
+      /* Gradient videolle */
     mask-image: linear-gradient(to right,black 10%, transparent 100%),
                 linear-gradient(to bottom, transparent, black 60%, transparent);
     -webkit-mask-image: linear-gradient(to right, black 10%, transparent 100%),
@@ -64,13 +64,7 @@ a:hover {
 
 }
 
-/* Animaatio videolle (pyöriminen) */
-@keyframes videoAnimation {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-/* Tekstikontaineri */
+/* Bannerin teksti */
 .text-container {
     position: relative;
     color: white;
@@ -92,6 +86,11 @@ h1 {
     font-style: italic;
 }
 
+h4 {
+  color: #FFD700;
+
+}
+
 /* Sydämet */
 .heart {
     position: absolute;
@@ -104,7 +103,7 @@ h1 {
     animation: rise 1.5s ease-out forwards;
 }
 
-/* Animaatio: Sydämen liike */
+/*Sydämen liike */
 @keyframes rise {
     0% {
         transform: translateY(0) scale(1);
@@ -114,6 +113,42 @@ h1 {
         transform: translateY(-50px) scale(0.8);
         opacity: 0;
     }
+}
+
+.projects {
+    border: 1px solid #E75BC6;
+    border-radius: 5px;
+  margin-top: 5px;
+    padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.project{
+  display: flex;
+  width: 46%;
+  border-radius: 1px;
+  padding: 5px;
+}
+
+.project strong{
+    color: #FFD700;
+
+}
+
+.project img {
+    width: 33vh;
+    border-radius: 5px;
+}
+
+.project .left {
+  width: 50%;
+}
+
+.project .right {
+  width: 50%;
 }
 
 .dropdown {
@@ -138,7 +173,7 @@ h1 {
         .dropdown-content {
             display: none;
             padding: 10px;
-            background-color: rgba(0, 0, 0, 0.6); /* Musta läpikuultava tausta */
+            background-color: rgba(0, 0, 0, 0.6);
             border: 1px solid #E75BC6;
             border-radius: 5px;
             margin-top: 5px;
@@ -155,17 +190,17 @@ h1 {
         }
 
         .contact-container {
-    display: flex; /* Jotta kuva ja tekstit ovat vierekkäin */
-    align-items: center; /* Kohdistaa kuvan ja tekstin pystysuunnassa keskelle */
-    gap: 20px; /* Lisää väliä kuvan ja tekstien välille */
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .contact-img {
-    width: 50px; /* Kuvan koko */
+    width: 50px;
     height: 80px;
-    border-radius: 15px; /* Pyöristetyt kulmat */
-    animation: spin 5s linear infinite; /* Pyörivä animaatio */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Kevyt varjo kuvassa */
+    border-radius: 15px;
+    animation: spin 5s linear infinite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes spin {
@@ -178,17 +213,17 @@ h1 {
 }
 
 .contact-info p {
-    margin: 5px 0; /* Tekstien välistys */
+    margin: 5px 0;
 }
 
 @media (max-width: 540px) {
     h1 {
-        font-size: 1.5rem;  /* Vielä pienempi fonttikoko mobiilinäytöille */
+        font-size: 1.5rem;
         letter-spacing: 1px;
     }
 
     .subtitle {
-        font-size: 0.7rem;  /* Pienempi fonttikoko mobiilinäytöille */
+        font-size: 0.7rem;
         margin-top: 5px;
     }
 }
