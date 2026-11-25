@@ -101,6 +101,7 @@ h4 {
     transform: scale(1);
     opacity: 1;
     animation: rise 1.5s ease-out forwards;
+    pointer-events: none;
 }
 
 /*Sydämen liike */
