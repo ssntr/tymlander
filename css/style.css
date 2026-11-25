@@ -1,6 +1,4 @@
-{
-    margin: 0;
-    padding: 0.01%;
+*{
     box-sizing: border-box;
 }
 
@@ -41,20 +39,28 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    gap: 20px;
     width: 99.5%;
     height: 14rem;
     overflow: hidden;
     background-color: #1a1a1a;
+    padding: 10px;
+}
+
+.video-container {
+    position: relative;
+    flex: 0 0 30%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .video-background {
-    top: 0;
-    left: 0;
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
-      /* Gradient videolle */
+
+    /* Gradient videolle */
     mask-image: linear-gradient(to right,black 10%, transparent 100%),
                 linear-gradient(to bottom, transparent, black 60%, transparent);
     -webkit-mask-image: linear-gradient(to right, black 10%, transparent 100%),
@@ -67,6 +73,7 @@ a:hover {
 /* Bannerin teksti */
 .text-container {
     position: relative;
+    flex: 1;
     color: white;
     text-align: left;
 }
@@ -120,17 +127,18 @@ h4 {
     border: 1px solid #E75BC6;
     border-radius: 5px;
   margin-top: 5px;
-    padding: 5px;
+    padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-between;
+  gap: 15px;
 }
 
 .project{
   display: flex;
-  width: 46%;
-  border-radius: 1px;
+    flex: 1 1 calc(50% - 15px);
+    min-width: 0;
+  gap: 10px;
+  border-radius: 5px;
   padding: 5px;
 }
 
@@ -140,16 +148,16 @@ h4 {
 }
 
 .project img {
-    width: 33vh;
+    display: block;
+    width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
-.project .left {
-  width: 50%;
-}
-
+.project .left,
 .project .right {
-  width: 50%;
+    flex: 1;
+    min-width: 0;
 }
 
 .dropdown {
@@ -217,14 +225,41 @@ h4 {
     margin: 5px 0;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 1141px) {
+
     h1 {
-        font-size: 1.5rem;
+        font-size: clamp(1.5rem, 5vw, 4rem);
         letter-spacing: 1px;
     }
 
     .subtitle {
-        font-size: 0.7rem;
+        font-size: clamp(0.7rem, 2.5vw, 1.5rem);
         margin-top: 5px;
+    }
+
+    .container {
+        max-width: 95%;
+        padding: 12px;
+        margin-top: 100px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .project {
+        flex-direction: column;
+        flex-basis: auto;
+        width: 100%;
+    }
+
+    .project .left,
+    .project .right {
+        width: 100%;
+    }
+
+    .project img {
+        width: 100%;
+        height: auto;
     }
 }
