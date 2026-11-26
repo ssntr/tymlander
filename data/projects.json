@@ -1,0 +1,88 @@
+[
+{
+    "title": "Cansan Saga",
+    "year": 2026,
+    "image": "img/cansansaga/thumbnail.png",
+    "description": [
+        "A short description of the game."
+    ],
+    "itch": "https://ssntr.itch.io/cansansaga",
+    "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/3876064?border_width=2&amp;bg_color=ffffff&amp;fg_color=43130d&amp;link_color=ffffff&amp;border_color=633c41\" width=\"554\" height=\"169\"><a href=\"https://ssntr.itch.io/cansansaga\">Cansan Saga by ssntr</a></iframe>",
+    "screenshots": [
+      "img/cansansaga/cansansaga1.png",
+      "img/cansansaga/cansansaga2.png",
+      "img/cansansaga/cansansaga3.png"
+    ],
+    "technologies": ["Unity", "C#"]
+},
+  {
+    "title": "overtaiL",
+    "year": 2026,
+    "image": "img/overtail/thumbnail.png",
+    "alt": "overtaiL",
+    "description": [
+      "Animals of the forest protect their biome against leftovers of human civilization. Their main goal is to reach a mountain's summit, where final salvation awaits.........",
+      "A tactical strategy-rpg with roguelite elements! In a mysterious pop-up book, you open up a map that leads the critters you control on their first mission to protect nearby villages from oh-so-TRASHY beings! Expect cute inhabitants of Taiga taking medieval arms against waste of the present, and a little bit of gore...",
+      "This is a concept demo of a video game project developed in Unity, made by six video game development students, with an additional audio designer. The development itself took roughly two+ months, with occasional planning before that!"
+    ],
+    "itch": "https://ssntr.itch.io/overtail",
+    "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/4738016?border_width=2&amp;bg_color=c8c3a8&amp;fg_color=412d36&amp;link_color=7e2828&amp;border_color=604e4d\" width=\"554\" height=\"169\"><a href=\"https://ssntr.itch.io/overtail\">overtaiL by ssntr, Tim Fabritius, Minifuse, cardboardbatman, Deadshadow432, xmassimo</a></iframe>",
+    "youtube": "https://www.youtube.com/watch?v=Bxux2DmSGjQ&t=4s",
+    "videoSize": "large",
+    "screenshots": [
+      "img/overtail/overtail1.png",
+      "img/overtail/overtail2.png",
+      "img/overtail/overtail3.png",
+      "img/overtail/overtail4.png"
+    ],
+    "technologies": ["Unity", "C#"]
+  },
+  {
+    "title": "Kindling",
+    "year": 2025,
+    "image": "img/kindling/thumbnail.png",
+    "alt": "Kindling",
+    "description": [
+      "Kindling is a 2D top-down adventure puzzle game where you explore a world void of its light, using your Lantern to solve puzzles. The primary goal of the game is to bring your surroundings back to life by lighting up Kindles.",
+      "Your Lantern, with its progressing abilities, is more than illumination — it’s your main tool for interaction, exploration and survival.",
+      "Kindling started as a student portfolio project with four programmers, one graphical artist and one audio designer working on the game for roughly 10 weeks.",
+      "The development continued as a part-time project of three programmers for Bit1 Student Video Game Competition, where Kindling made it to the finals!"
+    ],
+    "itch": "https://ilkkahi.itch.io/kindling",
+    "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/4108558?border_width=2&amp;bg_color=1b2f30&amp;fg_color=ffffff&amp;link_color=764466&amp;border_color=333333\" width=\"554\" height=\"169\"><a href=\"https://ilkkahi.itch.io/kindling\">Kindling by ilkkahi</a></iframe>",
+    "youtube": "https://www.youtube.com/watch?v=UE9aJpK1Qm0",
+    "videoSize": "large",
+    "screenshots": [
+      "img/kindling/kindling1.png",
+      "img/kindling/kindling2.png",
+      "img/kindling/kindling3.png",
+      "img/kindling/kindling4.png",
+      "img/kindling/kindling5.png",
+      "img/kindling/kindling6.png"
+    ],
+    "technologies": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "title": "y2k:Entity",
+    "year": 2024,
+    "image": "img/y2k/thumbnail.png",
+    "alt": "y2k:Entity",
+    "description": [
+      "A turn- and grid-based strategy RPG inspired by magical girls and 2000's aesthetic!",
+      "You are directed by Entity, a mystery being, observing guardians battling it out against menacing Forces.",
+      "Choose your characters' classes and duke it out in two seperate maps! Gameplay is heavily inspired by tactical JRPG franchises such as Final Fantasy Tactics and Fire Emblem. In true RPG fashion, the game also includes dialogue segments."
+    ],
+    "itch": "https://ssntr.itch.io/y2k-entity",
+    "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/3552925?border_width=2&amp;bg_color=c3ddfd&amp;fg_color=650073&amp;link_color=fa5c5c&amp;border_color=c9ca91\" width=\"554\" height=\"169\"><a href=\"https://ssntr.itch.io/y2k-entity\">y2k: Entity by ssntr</a></iframe>",
+    "youtube": "https://www.youtube.com/watch?v=InvGdTT-758",
+    "videoSize": "large",
+    "screenshots": [
+        "img/y2k/y2k1.png",
+        "img/y2k/y2k2.png",
+        "img/y2k/y2k3.png",
+        "img/y2k/y2k4.png",
+        "img/y2k/y2k5.png"
+    ],
+    "technologies": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
+  }
+]
