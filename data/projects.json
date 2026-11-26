@@ -2,19 +2,23 @@
 {
     "title": "Cansan Saga",
     "year": 2026,
-    "image": "img/basic-bees/thumbnail.png",
+    "image": "img/cansansaga/thumbnail.png",
     "description": [
         "A short description of the game."
     ],
     "itch": "https://ssntr.itch.io/cansansaga",
     "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/3876064?border_width=2&amp;bg_color=ffffff&amp;fg_color=43130d&amp;link_color=ffffff&amp;border_color=633c41\" width=\"554\" height=\"169\"><a href=\"https://ssntr.itch.io/cansansaga\">Cansan Saga by ssntr</a></iframe>",
-    "screenshots": [],
+    "screenshots": [
+      "img/cansansaga/cansansaga1.png",
+      "img/cansansaga/cansansaga2.png",
+      "img/cansansaga/cansansaga3.png"
+    ],
     "technologies": ["Unity", "C#"]
 },
   {
     "title": "overtaiL",
     "year": 2026,
-    "image": "img/basic-bees/thumbnail.png",
+    "image": "img/overtail/thumbnail.png",
     "alt": "overtaiL",
     "description": [
       "Animals of the forest protect their biome against leftovers of human civilization. Their main goal is to reach a mountain's summit, where final salvation awaits.........",
@@ -26,17 +30,17 @@
     "youtube": "https://www.youtube.com/watch?v=Bxux2DmSGjQ&t=4s",
     "videoSize": "large",
     "screenshots": [
-      "img/basic-bees/thumbnail.png",
-      "img/basic-bees/thumbnail.png",
-      "img/basic-bees/thumbnail.png",
-      "img/basic-bees/thumbnail.png"
+      "img/overtail/overtail1.png",
+      "img/overtail/overtail2.png",
+      "img/overtail/overtail3.png",
+      "img/overtail/overtail4.png"
     ],
     "technologies": ["Unity", "C#"]
   },
   {
     "title": "Kindling",
     "year": 2025,
-    "image": "img/lairbound-legends/thumbnail.png",
+    "image": "img/kindling/thumbnail.png",
     "alt": "Kindling",
     "description": [
       "Kindling is a 2D top-down adventure puzzle game where you explore a world void of its light, using your Lantern to solve puzzles. The primary goal of the game is to bring your surroundings back to life by lighting up Kindles.",
@@ -48,13 +52,20 @@
     "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/4108558?border_width=2&amp;bg_color=1b2f30&amp;fg_color=ffffff&amp;link_color=764466&amp;border_color=333333\" width=\"554\" height=\"169\"><a href=\"https://ilkkahi.itch.io/kindling\">Kindling by ilkkahi</a></iframe>",
     "youtube": "https://www.youtube.com/watch?v=UE9aJpK1Qm0",
     "videoSize": "large",
-    "screenshots": [],
+    "screenshots": [
+      "img/kindling/kindling1.png",
+      "img/kindling/kindling2.png",
+      "img/kindling/kindling3.png",
+      "img/kindling/kindling4.png",
+      "img/kindling/kindling5.png",
+      "img/kindling/kindling6.png"
+    ],
     "technologies": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
   },
   {
     "title": "y2k:Entity",
     "year": 2024,
-    "image": "img/basic-bees/thumbnail.png",
+    "image": "img/y2k/thumbnail.png",
     "alt": "y2k:Entity",
     "description": [
       "A turn- and grid-based strategy RPG inspired by magical girls and 2000's aesthetic!",
@@ -65,7 +76,13 @@
     "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/3552925?border_width=2&amp;bg_color=c3ddfd&amp;fg_color=650073&amp;link_color=fa5c5c&amp;border_color=c9ca91\" width=\"554\" height=\"169\"><a href=\"https://ssntr.itch.io/y2k-entity\">y2k: Entity by ssntr</a></iframe>",
     "youtube": "https://www.youtube.com/watch?v=InvGdTT-758",
     "videoSize": "large",
-    "screenshots": [],
+    "screenshots": [
+        "img/y2k/y2k1.png",
+        "img/y2k/y2k2.png",
+        "img/y2k/y2k3.png",
+        "img/y2k/y2k4.png",
+        "img/y2k/y2k5.png"
+    ],
     "technologies": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
   }
 ]
