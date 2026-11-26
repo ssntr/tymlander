@@ -57,7 +57,19 @@ async function loadProjects() {
             left.classList.add("left");
 
             const title = document.createElement("h4");
-            title.textContent = project.title;
+
+            if (project.itch) {
+                const link = document.createElement("a");
+                link.href = project.itch;
+                link.textContent = project.title;
+                link.target = "_blank";
+                link.rel = "noopener noreferrer";
+
+                title.appendChild(link);
+            } else {
+                title.textContent = project.title;
+            }
+
             left.appendChild(title);
 
             // Main thumbnail
@@ -149,20 +161,6 @@ async function loadProjects() {
             });
 
             right.appendChild(description);
-
-            // Itch.io link
-            if (project.itch) {
-                const paragraph = document.createElement("p");
-                const link = document.createElement("a");
-
-                link.href = project.itch;
-                link.textContent = "Playable on itch.io!";
-                link.target = "_blank";
-                link.rel = "noopener noreferrer";
-
-                paragraph.appendChild(link);
-                right.appendChild(paragraph);
-            }
 
             // Assemble project
             projectElement.append(left, right);
