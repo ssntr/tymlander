@@ -1,3 +1,33 @@
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightbox-image");
+const lightboxClose = document.getElementById("lightbox-close");
+
+function openLightbox(imagePath) {
+    lightboxImage.src = imagePath;
+    lightbox.classList.add("active");
+}
+
+function closeLightbox() {
+    lightbox.classList.remove("active");
+    lightboxImage.src = "";
+}
+
+lightboxClose.addEventListener("click", closeLightbox);
+
+// Close when clicking outside the image
+lightbox.addEventListener("click", event => {
+    if (event.target === lightbox) {
+        closeLightbox();
+    }
+});
+
+// Close with Escape
+document.addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+        closeLightbox();
+    }
+});
+
 async function loadProjects() {
     try {
         // Fetch project data
@@ -68,9 +98,13 @@ async function loadProjects() {
             // Screenshots
             project.screenshots?.forEach(path => {
                 const link = document.createElement("a");
-                link.href = path;
-                link.target = "_blank";
-                link.rel = "noopener noreferrer";
+                link.href = "#";
+                link.classList.add("screenshot-link");
+
+                link.addEventListener("click", event => {
+                    event.preventDefault();
+                    openLightbox(path);
+                });
 
                 const screenshot = document.createElement("img");
                 screenshot.src = path;
