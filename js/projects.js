@@ -26,11 +26,8 @@ async function loadProjects() {
             const left = document.createElement("div");
             left.classList.add("left");
 
-            const title = document.createElement("p");
-            const strong = document.createElement("strong");
-
-            strong.textContent = project.title;
-            title.appendChild(strong);
+            const title = document.createElement("h4");
+            title.textContent = project.title;
 
             const image = document.createElement("img");
             image.src = project.image;
@@ -42,12 +39,23 @@ async function loadProjects() {
             const right = document.createElement("div");
             right.classList.add("right");
 
-            // Description paragraphs
+            // Reserved space for future metadata
+            const metadata = document.createElement("div");
+            metadata.classList.add("project-metadata");
+
+            right.appendChild(metadata);
+
+            // Description
+            const description = document.createElement("div");
+            description.classList.add("project-description");
+
             project.description.forEach(text => {
                 const paragraph = document.createElement("p");
                 paragraph.textContent = text;
-                right.appendChild(paragraph);
+                description.appendChild(paragraph);
             });
+
+            right.appendChild(description);
 
             // Itch.io link
             if (project.itch) {
