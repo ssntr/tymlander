@@ -29,11 +29,26 @@ async function loadProjects() {
             const title = document.createElement("h4");
             title.textContent = project.title;
 
-            const image = document.createElement("img");
-            image.src = project.image;
-            image.alt = project.alt || project.title;
+            if (project.youtube) {
+                const video = document.createElement("iframe");
 
-            left.append(title, image);
+                const videoId = project.youtube.includes("youtu.be/")
+                    ? project.youtube.split("youtu.be/")[1].split("?")[0]
+                    : new URL(project.youtube).searchParams.get("v");
+
+                video.src = `https://www.youtube.com/embed/${videoId}`;
+                video.title = `${project.title} Trailer`;
+                video.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+                video.allowFullscreen = true;
+
+                left.append(title, video);
+            } else {
+                const image = document.createElement("img");
+                image.src = project.image;
+                image.alt = project.alt || project.title;
+
+                left.append(title, image);
+            }
 
             // RIGHT SIDE: Description and links
             const right = document.createElement("div");

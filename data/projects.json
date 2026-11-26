@@ -1,21 +1,21 @@
 [
   {
-    "title": "Basic Bees: Swarm Destroyer!",
-    "year": 2025,
+    "title": "overtaiL",
+    "year": 2026,
     "image": "img/basic-bees/thumbnail.png",
     "alt": "Basic Bees gameplay",
     "description": [
       "Princess Toad’s un-Bee-lievable Adventure, reclaiming her precious stool!",
       "This video game prototype was my first foray into the wonderful world of Unity and C#. I plan to expand and polish Princess Toad’s escapades soon. But for now, take her for a spin and show those Basic Bees who’s boss!"
     ],
-    "itch": "https://ssntr.itch.io/basic-bees",
-    "youtube": null,
+    "itch": "https://ssntr.itch.io/overtail",
+    "youtube": "https://www.youtube.com/watch?v=Bxux2DmSGjQ&t=4s",
     "screenshots": [],
     "technologies": ["Unity", "C#"]
   },
   {
-    "title": "Lairbound Legends",
-    "year": 2024,
+    "title": "Kindling",
+    "year": 2025,
     "image": "img/lairbound-legends/thumbnail.png",
     "alt": "Lairbound Legends",
     "description": [
@@ -23,8 +23,23 @@
       "The backend uses Python and SQL, and frontend was developed with JavaScript, HTML and CSS.",
       "We had a team of creative powerhouses, and ended up arranging original music, and creating a flying and a turn-based RPG-style minigames!"
     ],
-    "itch": null,
-    "youtube": null,
+    "itch": "https://ilkkahi.itch.io/kindling",
+    "youtube": "https://www.youtube.com/watch?v=UE9aJpK1Qm0",
+    "screenshots": [],
+    "technologies": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "title": "y2k:Entity",
+    "year": 2024,
+    "image": "img/basic-bees/thumbnail.png",
+    "alt": "Basic Bees gameplay",
+    "description": [
+      "A first-year student project with a team of four people, using a database of airports. We ended up making the game about flying a dragon between different lairs!",
+      "The backend uses Python and SQL, and frontend was developed with JavaScript, HTML and CSS.",
+      "We had a team of creative powerhouses, and ended up arranging original music, and creating a flying and a turn-based RPG-style minigames!"
+    ],
+    "itch": "https://ssntr.itch.io/y2k-entity",
+    "youtube": "https://www.youtube.com/watch?v=InvGdTT-758",
     "screenshots": [],
     "technologies": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
   }

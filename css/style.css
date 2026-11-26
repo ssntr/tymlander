@@ -156,6 +156,14 @@ h4 {
     border-radius: 5px;
 }
 
+.project iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 5px;
+}
+
 .project .left {
     flex: 1;
     min-width: 0;
