@@ -28,27 +28,59 @@ async function loadProjects() {
 
             const title = document.createElement("h4");
             title.textContent = project.title;
+            left.appendChild(title);
 
+            // Main thumbnail
+            const image = document.createElement("img");
+            image.src = project.image;
+            image.alt = project.alt || project.title;
+
+            left.appendChild(image);
+
+            // Media gallery
+            const gallery = document.createElement("div");
+            gallery.classList.add("project-gallery");
+
+            
+            // YouTube video
             if (project.youtube) {
-                const video = document.createElement("iframe");
-
                 const videoId = project.youtube.includes("youtu.be/")
                     ? project.youtube.split("youtu.be/")[1].split("?")[0]
                     : new URL(project.youtube).searchParams.get("v");
 
+                const videoWrapper = document.createElement("div");
+                videoWrapper.classList.add("gallery-video");
+
+                if (project.videoSize === "large") {
+                    videoWrapper.classList.add("large");
+                }
+
+                const video = document.createElement("iframe");
                 video.src = `https://www.youtube.com/embed/${videoId}`;
                 video.title = `${project.title} Trailer`;
                 video.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
                 video.allowFullscreen = true;
 
-                left.append(title, video);
-            } else {
-                const image = document.createElement("img");
-                image.src = project.image;
-                image.alt = project.alt || project.title;
-
-                left.append(title, image);
+                videoWrapper.appendChild(video);
+                gallery.appendChild(videoWrapper);
             }
+
+            // Screenshots
+            project.screenshots?.forEach(path => {
+                const link = document.createElement("a");
+                link.href = path;
+                link.target = "_blank";
+                link.rel = "noopener noreferrer";
+
+                const screenshot = document.createElement("img");
+                screenshot.src = path;
+                screenshot.alt = `${project.title} screenshot`;
+
+                link.appendChild(screenshot);
+                gallery.appendChild(link);
+            });
+
+            left.appendChild(gallery);
 
             // RIGHT SIDE: Description and links
             const right = document.createElement("div");

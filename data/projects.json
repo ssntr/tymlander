@@ -3,28 +3,37 @@
     "title": "overtaiL",
     "year": 2026,
     "image": "img/basic-bees/thumbnail.png",
-    "alt": "Basic Bees gameplay",
+    "alt": "overtaiL",
     "description": [
-      "Princess Toad’s un-Bee-lievable Adventure, reclaiming her precious stool!",
-      "This video game prototype was my first foray into the wonderful world of Unity and C#. I plan to expand and polish Princess Toad’s escapades soon. But for now, take her for a spin and show those Basic Bees who’s boss!"
+      "Animals of the forest protect their biome against leftovers of human civilization. Their main goal is to reach a mountain's summit, where final salvation awaits.........",
+      "A tactical strategy-rpg with roguelite elements! In a mysterious pop-up book, you open up a map that leads the critters you control on their first mission to protect nearby villages from oh-so-TRASHY beings! Expect cute inhabitants of Taiga taking medieval arms against waste of the present, and a little bit of gore...",
+      "This is a concept demo of a video game project developed in Unity, made by six video game development students, with an additional audio designer. The development itself took roughly two+ months, with occasional planning before that!"
     ],
     "itch": "https://ssntr.itch.io/overtail",
     "youtube": "https://www.youtube.com/watch?v=Bxux2DmSGjQ&t=4s",
-    "screenshots": [],
+    "videoSize": "large",
+    "screenshots": [
+      "img/basic-bees/thumbnail.png",
+      "img/basic-bees/thumbnail.png",
+      "img/basic-bees/thumbnail.png",
+      "img/basic-bees/thumbnail.png"
+    ],
     "technologies": ["Unity", "C#"]
   },
   {
     "title": "Kindling",
     "year": 2025,
     "image": "img/lairbound-legends/thumbnail.png",
-    "alt": "Lairbound Legends",
+    "alt": "Kindling",
     "description": [
-      "A first-year student project with a team of four people, using a database of airports. We ended up making the game about flying a dragon between different lairs!",
-      "The backend uses Python and SQL, and frontend was developed with JavaScript, HTML and CSS.",
-      "We had a team of creative powerhouses, and ended up arranging original music, and creating a flying and a turn-based RPG-style minigames!"
+      "Kindling is a 2D top-down adventure puzzle game where you explore a world void of its light, using your Lantern to solve puzzles. The primary goal of the game is to bring your surroundings back to life by lighting up Kindles.",
+      "Your Lantern, with its progressing abilities, is more than illumination — it’s your main tool for interaction, exploration and survival.",
+      "Kindling started as a student portfolio project with four programmers, one graphical artist and one audio designer working on the game for roughly 10 weeks.",
+      "The development continued as a part-time project of three programmers for Bit1 Student Video Game Competition, where Kindling made it to the finals!"
     ],
     "itch": "https://ilkkahi.itch.io/kindling",
     "youtube": "https://www.youtube.com/watch?v=UE9aJpK1Qm0",
+    "videoSize": "large",
     "screenshots": [],
     "technologies": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
   },
@@ -32,14 +41,15 @@
     "title": "y2k:Entity",
     "year": 2024,
     "image": "img/basic-bees/thumbnail.png",
-    "alt": "Basic Bees gameplay",
+    "alt": "y2k:Entity",
     "description": [
-      "A first-year student project with a team of four people, using a database of airports. We ended up making the game about flying a dragon between different lairs!",
-      "The backend uses Python and SQL, and frontend was developed with JavaScript, HTML and CSS.",
-      "We had a team of creative powerhouses, and ended up arranging original music, and creating a flying and a turn-based RPG-style minigames!"
+      "A turn- and grid-based strategy RPG inspired by magical girls and 2000's aesthetic!",
+      "You are directed by Entity, a mystery being, observing guardians battling it out against menacing Forces.",
+      "Choose your characters' classes and duke it out in two seperate maps! Gameplay is heavily inspired by tactical JRPG franchises such as Final Fantasy Tactics and Fire Emblem. In true RPG fashion, the game also includes dialogue segments."
     ],
     "itch": "https://ssntr.itch.io/y2k-entity",
     "youtube": "https://www.youtube.com/watch?v=InvGdTT-758",
+    "videoSize": "large",
     "screenshots": [],
     "technologies": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
   }
