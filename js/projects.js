@@ -126,6 +126,18 @@ async function loadProjects() {
 
             right.appendChild(metadata);
 
+            // Itch.io widget
+            if (project.itchWidget) {
+                const widgetContainer = document.createElement("div");
+                widgetContainer.classList.add("itch-widget");
+
+                const template = document.createElement("template");
+                template.innerHTML = project.itchWidget;
+
+                widgetContainer.appendChild(template.content.cloneNode(true));
+                right.appendChild(widgetContainer);
+            }
+
             // Description
             const description = document.createElement("div");
             description.classList.add("project-description");

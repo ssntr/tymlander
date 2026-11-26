@@ -1,4 +1,16 @@
 [
+{
+    "title": "Cansan Saga",
+    "year": 2026,
+    "image": "img/basic-bees/thumbnail.png",
+    "description": [
+        "A short description of the game."
+    ],
+    "itch": "https://ssntr.itch.io/cansansaga",
+    "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/3876064?border_width=2&amp;bg_color=ffffff&amp;fg_color=43130d&amp;link_color=ffffff&amp;border_color=633c41\" width=\"554\" height=\"169\"><a href=\"https://ssntr.itch.io/cansansaga\">Cansan Saga by ssntr</a></iframe>",
+    "screenshots": [],
+    "technologies": ["Unity", "C#"]
+},
   {
     "title": "overtaiL",
     "year": 2026,
@@ -10,6 +22,7 @@
       "This is a concept demo of a video game project developed in Unity, made by six video game development students, with an additional audio designer. The development itself took roughly two+ months, with occasional planning before that!"
     ],
     "itch": "https://ssntr.itch.io/overtail",
+    "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/4738016?border_width=2&amp;bg_color=c8c3a8&amp;fg_color=412d36&amp;link_color=7e2828&amp;border_color=604e4d\" width=\"554\" height=\"169\"><a href=\"https://ssntr.itch.io/overtail\">overtaiL by ssntr, Tim Fabritius, Minifuse, cardboardbatman, Deadshadow432, xmassimo</a></iframe>",
     "youtube": "https://www.youtube.com/watch?v=Bxux2DmSGjQ&t=4s",
     "videoSize": "large",
     "screenshots": [
@@ -32,6 +45,7 @@
       "The development continued as a part-time project of three programmers for Bit1 Student Video Game Competition, where Kindling made it to the finals!"
     ],
     "itch": "https://ilkkahi.itch.io/kindling",
+    "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/4108558?border_width=2&amp;bg_color=1b2f30&amp;fg_color=ffffff&amp;link_color=764466&amp;border_color=333333\" width=\"554\" height=\"169\"><a href=\"https://ilkkahi.itch.io/kindling\">Kindling by ilkkahi</a></iframe>",
     "youtube": "https://www.youtube.com/watch?v=UE9aJpK1Qm0",
     "videoSize": "large",
     "screenshots": [],
@@ -48,6 +62,7 @@
       "Choose your characters' classes and duke it out in two seperate maps! Gameplay is heavily inspired by tactical JRPG franchises such as Final Fantasy Tactics and Fire Emblem. In true RPG fashion, the game also includes dialogue segments."
     ],
     "itch": "https://ssntr.itch.io/y2k-entity",
+    "itchWidget": "<iframe frameborder=\"0\" src=\"https://itch.io/embed/3552925?border_width=2&amp;bg_color=c3ddfd&amp;fg_color=650073&amp;link_color=fa5c5c&amp;border_color=c9ca91\" width=\"554\" height=\"169\"><a href=\"https://ssntr.itch.io/y2k-entity\">y2k: Entity by ssntr</a></iframe>",
     "youtube": "https://www.youtube.com/watch?v=InvGdTT-758",
     "videoSize": "large",
     "screenshots": [],

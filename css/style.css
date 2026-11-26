@@ -239,6 +239,16 @@ h4 {
     color: #E75BC6;
 }
 
+.itch-widget {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.itch-widget iframe {
+    max-width: 100%;
+}
+
 .project .left {
     flex: 1;
     min-width: 0;
